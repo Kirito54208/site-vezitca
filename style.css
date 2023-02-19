@@ -355,6 +355,9 @@
     letter-spacing: 0.5px;
     color: #9a9a9b;  
   }
+  .mob-btn{
+    display: none;
+  }
   
   /*Адаптация сайта.*/
   @media (max-width: 1120px ){
@@ -414,5 +417,43 @@
   }
    
   @media (max-width: 578px ){
-  
+  /*Для меню*/
+  .navigation-holder{
+    display: none;
+  }
+  .mob-btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 60px;
+    color: #fff;
+  }
+  /*Заголовок в шапке*/
+  .header-title-text{
+    font-size: 60px;
+  }
+  /*Кнопка Join*/
+  .join{
+    display: none;
+  }
+  /*Изображение девушки*/
+  .card-info-img{
+    max-width: 100%;
+  }
+  /*Для аудиоблока*/
+  .audio-holder, .card-about{
+    width: 100%;
+  }
+  .audio-block img{
+    display: none;
+  }
+  .audio-container{
+    padding: 0 42px 0 0;
+  }
+  .control i {
+    height: 48px;
+  }
+  /*Для футера*/
+  .course-name{
+    font-size: 24px;
+  }
   }
